@@ -53,5 +53,9 @@ printf("can't guess.");
 }
 ```
 
+emojis
+:camel:
+:boom:
+
 Image
 ![Space Launch System](https://octodex.github.com/images/yaktocat.png)
