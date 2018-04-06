@@ -4,6 +4,10 @@
 
 [link to google!](http://google.com)
 
+inline link
+
+[abc.txt](/abc.txt/)
+
 Bullet points
 * game of thrones
   * stark
@@ -19,9 +23,9 @@ Bullet points with dashes
     - upload
     - download
 
-# <h1>
-## <h2>
-###### <h6>
+# `<h1>`
+## `<h2>`
+###### `<h6>`
 
 > quote
 > by vasanth
