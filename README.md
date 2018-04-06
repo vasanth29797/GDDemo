@@ -130,7 +130,7 @@ world
 
 ## Inline-style
 
-![meme](https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif)
+![meme](https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif =100X100)
 
 ## Inline-style (with title text)
 
