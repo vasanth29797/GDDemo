@@ -114,7 +114,29 @@ Inline-style (with title text)
 
 ![meme](https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif "title text")
 
-Reference-style
+Reference-style (with a line break btw each line)
 
-![meme][meme]
-[meme]: https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif "title text"
+![meme][logo]
+
+[logo]: https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif "title text"
+
+horizontal rules (use three or more)
+
+hyphens
+---
+asteriks
+***
+underscores
+___
+
+using html
+
+<p align="center">
+  <b>Bold text</b>
+  <br/>
+  <a href="http://google.com">Google</a> |
+  <a href="http://apple.com">Apple</a> |
+  <a href="http://amazon.com">Amazon</a>
+  <br/><br/>
+  <img src="https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif" alt="gif">
+</p>
