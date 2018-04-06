@@ -15,9 +15,9 @@ Bullet points with dashes
   - gmail
   - drive
 
-# heading1
-## heading 2
-###### heading 6
+# <h1>
+## <h2>
+###### <h6>
 
 > quote
 > by vasanth
@@ -62,8 +62,25 @@ task lists
 - [ ] unchecked
 
 emojis
+
 :camel:
 :boom:
+
+sublist
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a (with 3 spaces indentation)
+   1. Item 3b
+
+table
+
+th1 | th2
+--- | ---
+td1 | td2
+td1 | td2
+
 
 Image
 ![Space Launch System](https://octodex.github.com/images/yaktocat.png)
