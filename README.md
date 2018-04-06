@@ -1,20 +1,29 @@
+# Emphasis
+
 **bold**
 *italic*
 ~~strikethrough~~
 
-[link to google!](http://google.com)
+# Links
 
-inline link
+[Link to google!](http://google.com)
+
+## Relative link
 
 [abc.txt](/abc.txt/)
 
-Bullet points
+# Lists
+
+## Unordered (with asteriks)
+
 * game of thrones
   * stark
   * targaryen
   * lannister
 * breaking bad
   * walter white
+
+## Unordered (with dashes)  
 
 Bullet points with dashes
 - google
@@ -23,17 +32,31 @@ Bullet points with dashes
     - upload
     - download
 
+## Ordered
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a (with 3 spaces indentation)
+   1. Item 3b
+
+# Headers
+
 # `<h1>`
 ## `<h2>`
 ###### `<h6>`
 
+# Blockquotes
+
 > quote
 > by vasanth
 
-inline single line code
+# Inline codes
+
+## Inline single line code
 `int a = 1;`
 
-inline code block with 4 spaces indentation
+## Inline code block with 4 spaces indentation
     int a = 1;
     if (a == 1) {
       printf("one");
@@ -41,7 +64,7 @@ inline code block with 4 spaces indentation
       printf("can't guess.");
     }
 
-inline code block also with 3 backticks - code fencing
+## Inline code block also with 3 backticks - code fencing
 ```
 int a = 1;
 if (a == 1) {
@@ -51,7 +74,7 @@ printf("can't guess.");
 }
 ```
 
-inline code block also with 3 backticks - code fencing + syntax highlighting
+## Above + syntax highlighting
 ```c
 int a = 1;
 if (a == 1) {
@@ -60,71 +83,66 @@ printf("one");
 printf("can't guess.");
 }
 ```
-To reference and link to people
+# Usernames \@mention
 
 @github/support
 
-To ignore md formatting
+# Ignorance md formatting (with \\)
 
-\@github/support
+\*bold\*
 
-task lists
+# Task lists
 
 - [x] checked
 - [ ] unchecked
 
-emojis
+# Emoji
 
 :camel:
 :boom:
+:+1:
 
-sublist
-
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a (with 3 spaces indentation)
-   1. Item 3b
-
-table
+# tables
 
 th1 | th2
 --- | ---
 td1 | td2
 td1 | td2
 
-line break (2 spaces indentation)
+# Line break
 
-hello
-world
-
-line break (with `<br\>`)
-
-hello<br/> 
-world
-
-line break (with `\`)
+## with 2 spaces indentation
 
 hello  
 world
 
-Image
+## with `<br\>`
 
-Inline-style
+hello<br/> 
+world
+
+## with `\`
+
+hello  
+world
+
+# Images
+
+## Inline-style
 
 ![meme](https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif)
 
-Inline-style (with title text)
+## Inline-style (with title text)
 
 ![meme](https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif "title text")
 
-Reference-style (with a line break btw each line)
+## Reference-style (with a line break btw each line)
 
 ![meme][logo]
 
 [logo]: https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif "title text"
 
-horizontal rules (use three or more)
+# Horizontal rules (use three or more)
 
 hyphens
 ---
@@ -133,7 +151,7 @@ asteriks
 underscores
 ___
 
-using html
+# Using HTML
 
 <p align="center">
   <b>Bold text</b>
