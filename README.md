@@ -16,4 +16,4 @@ Bullet points with dashes
   - drive
 
 Image
-![Space Launch System](https://en.wikipedia.org/wiki/Space_Launch_System#/media/File:Orange_tank_SLS_launch_through_clouds_-_Post_CDR.jpg)
+![Space Launch System](https://octodex.github.com/images/yaktocat.png)
