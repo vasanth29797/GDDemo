@@ -1,5 +1,7 @@
 **bold**
 *italic*
+~~strikethrough~~
+
 [link to google!](http://google.com)
 
 Bullet points
@@ -14,6 +16,8 @@ Bullet points with dashes
 - google
   - gmail
   - drive
+    - upload
+    - download
 
 # <h1>
 ## <h2>
@@ -54,7 +58,11 @@ printf("can't guess.");
 ```
 To reference and link to people
 
-@vasanth29797
+@github/support
+
+To ignore md formatting
+
+\@github/support
 
 task lists
 
@@ -81,6 +89,32 @@ th1 | th2
 td1 | td2
 td1 | td2
 
+line break (2 spaces indentation)
+
+hello
+world
+
+line break (with `<br\>`)
+
+hello<br/> 
+world
+
+line break (with `\`)
+
+hello  
+world
 
 Image
-![Space Launch System](https://octodex.github.com/images/yaktocat.png)
+
+Inline-style
+
+![meme](https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif)
+
+Inline-style (with title text)
+
+![meme](https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif "title text")
+
+Reference-style
+
+![meme][meme]
+[meme]: https://media.giphy.com/media/l3mZrofd8Q2SA1I1q/giphy.gif "title text"
